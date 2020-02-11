@@ -1,3 +1,54 @@
-.hero__trek{
+.titulo__aside{
+    text-align: center;
+    font-family: $raleway;
+    font-weight: 700;
+    font-size: 35px;
+}
+.contenedor__aside{
     width: 100%;
+    align-content: center;
+}
+
+.container__aside{
+    width: 100%;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.caracterizticas{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.panel{
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.subtitulo__aside{
+    font-family: $raleway;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.contenido__aside{
+    font-family: $raleway;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.animation-element{
+    opacity: 0;
+    transition: all 500ms linear;
+    transform: translate3d(0px, 10px, 0px);
+    transition-delay: 0.5s;
+    
+}
+
+.animation-element.in-view{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
 }

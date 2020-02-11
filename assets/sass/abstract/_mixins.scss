@@ -1,0 +1,12 @@
+@mixin raleway__bold {
+    font-family: $raleway;
+    font-weight: $font-weight-bold;
+}
+
+@mixin centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+

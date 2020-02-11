@@ -1,12 +1,26 @@
 .contenedor{
     text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 100%;
+
 }
+
+.hero__trek{
+    width: 100%;
+    position: relative;
+}
+
+
 .titulo__header{
-    font-size: 35px;
+    font-family: $raleway;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 20px;
 }
 
 .cuerpo__header{
-    font-size: 20px;
+    font-family: $raleway;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: -10px;
+    margin-left: 20px;
 }
