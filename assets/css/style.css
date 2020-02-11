@@ -367,10 +367,6 @@ footer {
   margin-left: 20px;
 }
 
-.texto__footer2 {
-  margin-right: 1000px;
-}
-
 .titulo__aside {
   text-align: center;
   font-family: "Raleway", sans-serif;
@@ -494,13 +490,13 @@ footer {
 
 .carta-contenido2 {
   font-family: "Raleway", sans-serif;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   font-size: 17px;
   font-weight: 400;
   color: #221d23;
   margin-top: -25px;
   border-bottom: 1px solid #726f73;
-  line-height: 35px;
+  line-height: 27px;
 }
 
 button {
