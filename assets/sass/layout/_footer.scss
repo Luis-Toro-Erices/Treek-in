@@ -1,20 +1,26 @@
 footer{
     background-color: $raising-black;
     width: 100%;
-    height: 50px;
+    height: auto;
+    display: grid;
+    font-family: $raleway;
+   
 }
 
 .bajada{
-    display: flex;
+    display:flex;
+    justify-content: center;
     color: $white;
 }
 
 .marca__reg{
+    display:flex;
+    justify-content: center;
     color: $white;
-  
+   
+
 }
 
 .texto__footer{
-    margin-right: 20px;
-    margin-left: 20px;
+    padding-right: 15px;
 }

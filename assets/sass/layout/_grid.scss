@@ -87,6 +87,8 @@
     .hero__trek{
         top: 300px;
     }
+
+    
   .col-sm-12{
       grid-column: span 12;
   }
@@ -150,6 +152,9 @@
 .hero__trek{
     top: 30px;
 }
+
+
+
   .col-md-12{
       grid-column: span 12;
   }
@@ -210,6 +215,11 @@
         top: 100px;
        
     }
+
+    .botonera__naveg{
+        display: flex;
+    }
+    
   .col-lg-12{
       grid-column: span 12;
   }
